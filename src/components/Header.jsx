@@ -1,5 +1,6 @@
 import NavBar from './NavBar'
 
+
 function Header() {
 return (
 <header style={{ backgroundColor: "white", padding: "10px",
@@ -12,6 +13,7 @@ textAlign: "center", color: "goldenrod" }}>
 <h1>MI TIENDITA JC</h1>
 <h3>Bienvenidos a mi App React</h3>
 <NavBar />
+
 </header>
 );
 }
